@@ -1,0 +1,12 @@
+let a = parseFloat(prompt("Entrer le premier nombre :"));
+let b = parseFloat(prompt("Entrer le deuxième nombre :"));
+
+console.log("Somme =", a + b);
+console.log("Soustraction =", a - b);
+console.log("Multiplication =", a * b);
+
+if (b != 0) {
+    console.log("Division =", a / b);
+} else {
+    console.log("Division impossible");
+}
